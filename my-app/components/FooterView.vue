@@ -198,7 +198,7 @@
       </div>
       <div class="py-6 border-t border-gray-400 px-4">
         <p class="text-base md:text-lg text-center">
-          Copyright 2016 - 2017
+          Copyright {{ now() }}
           <a href="#" class="font-semibold text-secondary">Fxvps.pro </a> All
           Rights Reserved.
         </p>
@@ -209,9 +209,13 @@
 </template>
 
 <script>
-export default{}
+export default {
+  computed: {
+    now() {
+      return Date.now();
+    },
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
