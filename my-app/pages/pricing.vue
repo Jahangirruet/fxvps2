@@ -1377,12 +1377,12 @@
                     <th
                       class="flex items-center justify-center text-black font-bold xl:basis-[10%] py-3 xl:py-8 text-base xl:px-5 text-center"
                     >
-                      CPU
+                      Disk Space
                     </th>
                     <th
                       class="flex items-center justify-center text-black font-bold xl:basis-[10%] py-3 xl:py-8 text-base xl:px-5 text-center"
                     >
-                      Disk Space
+                      CPU
                     </th>
                     <th
                       class="flex items-center justify-center text-black font-bold xl:basis-[10%] py-3 xl:py-8 text-base xl:px-5 text-center"
