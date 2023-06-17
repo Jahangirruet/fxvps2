@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  
+@layer utilities{
+    .active {
+        right: 0 !important;
+        z-index: 999;
+    }  
+    .is-fixed{
+        @apply sticky top-0 shadow-md w-full bg-white
+    }
+    .modal-active{
+        @apply !opacity-100 !visible
+    }
+    .modal-active .modal-content{
+        @apply !translate-y-0
+    }
+}
+.banner .swiper-pagination-bullet {
+	width: 14px ;
+	height: 14px; 
+	background: #000 !important;
+	opacity: 1;
+}
+.banner .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 35px ; 
+    border-radius: 15px;
+	background: linear-gradient(to right, #11CA00, #00B4FF) !important; 
+}
+
+ 
