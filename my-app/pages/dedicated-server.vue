@@ -209,7 +209,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Server Name:</span
                       >
-                      DS 1
+                      DS 2
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -217,7 +217,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >RAM:</span
                       >
-                      16 GB DDR4 ECC
+                      32 GB DDR4 ECC
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -233,7 +233,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Disk:</span
                       >
-                      SSD NVMe 150 GB
+                      SSD NVMe 250 GB
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -241,7 +241,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >CPU:
                       </span>
-                      Intel Xeon D-1520-4c/8t-2.2GHz/2.7GH
+                      Intel Xeon-E 2136 - 6c/12t - 3.3GHz/4.5GHz
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -249,7 +249,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 1/M:
                       </span>
-                      $79.99
+                      $139.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -257,7 +257,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 3/M:
                       </span>
-                      $75.99
+                      $132.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -265,7 +265,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 6/M:</span
                       >
-                      $71.99
+                      $125.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -273,7 +273,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 12/M:</span
                       >
-                      $63.99
+                      $111.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -281,7 +281,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 24/M:</span
                       >
-                      $55.99
+                      $97.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -307,7 +307,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Server Name:</span
                       >
-                      DS 1
+                      DS 3
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -315,7 +315,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >RAM:</span
                       >
-                      16 GB DDR4 ECC
+                      32 GB DDR4 ECC
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -323,7 +323,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Band Width:</span
                       >
-                      250 Mbps ( 500 Mbps Burst)
+                      250 Mbps ( 1 Gbps Burst)
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -331,7 +331,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Disk:</span
                       >
-                      SSD NVMe 150 GB
+                      SSD NVMe 400 GB
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -339,7 +339,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >CPU:
                       </span>
-                      Intel Xeon D-1520-4c/8t-2.2GHz/2.7GH
+                      AMD Ryzen 7 3800X - 8c/16t - 3.9GHz/4.5GHz
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -347,7 +347,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 1/M:
                       </span>
-                      $79.99
+                      $159.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -355,7 +355,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 3/M:
                       </span>
-                      $75.99
+                      $151.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -363,7 +363,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 6/M:</span
                       >
-                      $71.99
+                      $143.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -371,7 +371,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 12/M:</span
                       >
-                      $63.99
+                      $127.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -379,7 +379,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 24/M:</span
                       >
-                      $55.99
+                      $111.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -405,7 +405,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Server Name:</span
                       >
-                      DS 1
+                      DS 4
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -413,7 +413,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >RAM:</span
                       >
-                      16 GB DDR4 ECC
+                      64 GB DDR4 ECC
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -421,7 +421,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Band Width:</span
                       >
-                      250 Mbps ( 500 Mbps Burst)
+                      250 Mbps ( 1 Gbps Burst)
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -429,7 +429,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Disk:</span
                       >
-                      SSD NVMe 150 GB
+                      SSD NVMe 250 GB
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -437,7 +437,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >CPU:
                       </span>
-                      Intel Xeon D-1520-4c/8t-2.2GHz/2.7GH
+                      AMD Epyc 7351p - 16c/32t - 2.4 GHz/2.9 GHz
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -445,7 +445,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 1/M:
                       </span>
-                      $79.99
+                      $249.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -453,7 +453,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 3/M:
                       </span>
-                      $75.99
+                      $237.49/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -461,7 +461,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 6/M:</span
                       >
-                      $71.99
+                      $224.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -469,7 +469,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 12/M:</span
                       >
-                      $63.99
+                      $199.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
@@ -477,7 +477,7 @@
                       <span class="text-base font-bold pr-2 xl:hidden"
                         >Price 24/M:</span
                       >
-                      $55.99
+                      $174.99/M
                     </td>
                     <td
                       class="flex justify-center text-black items-center text-center xl:basis-[10%] py-2 xl:py-6 text-sm xl:px-5"
