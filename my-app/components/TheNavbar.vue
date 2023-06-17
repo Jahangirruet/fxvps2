@@ -111,7 +111,7 @@
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/ultra-low-latency-vps">
+                  <NuxtLink to="/#">
                     <span class="font-bold text-base xl:text-xl text-black">
                       BROKER LATENCY
                     </span>
