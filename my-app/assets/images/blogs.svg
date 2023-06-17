@@ -1,0 +1,7 @@
+<svg id="Group_6" data-name="Group 6" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <path id="Path_12" data-name="Path 12" d="M0,0H18V18H0Z" fill="none"/>
+  <path id="Rectangle_3" data-name="Rectangle 3" d="M2-.75H8.5A2.753,2.753,0,0,1,11.25,2v9.5A2.753,2.753,0,0,1,8.5,14.25H2A2.753,2.753,0,0,1-.75,11.5V2A2.753,2.753,0,0,1,2-.75Zm6.5,13.5A1.251,1.251,0,0,0,9.75,11.5V2A1.251,1.251,0,0,0,8.5.75H2A1.251,1.251,0,0,0,.75,2v9.5A1.251,1.251,0,0,0,2,12.75Z" transform="translate(3.75 2.25)" fill="#fff"/>
+  <path id="Line_3" data-name="Line 3" d="M4.5.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H4.5A.75.75,0,0,1,5.25,0,.75.75,0,0,1,4.5.75Z" transform="translate(6.75 5.25)" fill="#fff"/>
+  <path id="Line_4" data-name="Line 4" d="M4.5.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H4.5A.75.75,0,0,1,5.25,0,.75.75,0,0,1,4.5.75Z" transform="translate(6.75 8.25)" fill="#fff"/>
+  <path id="Line_5" data-name="Line 5" d="M3,.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H3A.75.75,0,0,1,3.75,0,.75.75,0,0,1,3,.75Z" transform="translate(6.75 11.25)" fill="#fff"/>
+</svg>
