@@ -10,14 +10,29 @@
           >
             <div class="space-y-4">
               <h1 class="text-black font-bold text-2xl lg:text-3xl">
-                Fxvps Pricing
+                Introducing the exhilarating affiliate program of FX VPS PRO.
               </h1>
               <p class="text-base md:text-lg text-black !leading-[1.6]">
-                FX VPS Pro is highly proficient and experienced in this industry
-                & we know what exactly a forex trader wants. That’s why we have
-                various types of planning option to meet different kind of
-                needs. So, think & decide your choice from the hardware &
-                technical features organized in the following pricing models.
+                Speeedy business execution, lowest latency period & continuous
+                up-time have consistently been major worries in forex trading.
+                There are a handful of VPS service providers who can match those
+                needs without any technical disturbance.
+              </p>
+              <p class="text-base md:text-lg text-black !leading-[1.6]">
+                The service provider has to safeguard the contentment of
+                principal requirements at any cost. But it is problematic for a
+                beginner to decide a VPS service in minimal fitm. Forex VPS Pro
+                makes this task simpler for traders. We have initiated a free
+                forex VPS hosting service categorized into different packages
+                verying in RAV & CPU capacity, disk space, bandwidth, etc.
+              </p>
+              <p class="text-base md:text-lg text-black !leading-[1.6]">
+                You will experiece the features & beneficiary features of Forex
+                VPS servers supported by the lates hardware technology.
+                Subsequently, the trader will have an explicit trial of the
+                system's performance & beneficiary features of Fored VPS
+                hosting. So grab the opportunity for the betterment of your
+                forex trading journy.
               </p>
             </div>
             <div class="space-y-6 md:space-y-10">
