@@ -2380,7 +2380,7 @@
                 >
                   <figure class="shrink-0">
                     <img
-                      src="~/assets/images/chart _1_.png"
+                      src="~/assets/images/chart_1_.png"
                       alt="chart _1_.png"
                     />
                   </figure>
