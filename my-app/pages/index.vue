@@ -11,7 +11,7 @@
                     <h1
                       class="font-fredoka text-black text-[28px] md:text-[40px] 2xl:text-[3rem] leading-none"
                     >
-                      Ultra Fast Forex Trading VPS
+                      Ultra Fast Forex Trading VPS.....
                     </h1>
                     <p
                       class="text-lg md:text-xl 2xl:text-2xl text-black xl:pr-20 2xl:pr-32"
