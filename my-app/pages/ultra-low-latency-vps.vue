@@ -2380,7 +2380,7 @@
                 >
                   <figure class="shrink-0">
                     <img
-                      src="~/assets/images/chart_1_.png"
+                      src="~/assets/images/chart _1_.png"
                       alt="chart _1_.png"
                     />
                   </figure>
@@ -2447,7 +2447,7 @@
                 >
                   <figure class="shrink-0">
                     <img
-                      src="~/assets/images/shield_1_.png"
+                      src="~/assets/images/shield.png"
                       alt="shield _1_.png"
                     />
                   </figure>
