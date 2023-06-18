@@ -10,7 +10,7 @@
           >
             <div class="space-y-4">
               <h1 class="text-black font-bold text-2xl lg:text-3xl">
-                Forex Dedicated Virtual Server...
+                Forex Dedicated Virtual Server
               </h1>
               <p class="text-base md:text-lg text-black !leading-[1.6]">
                 FX VPS Pro’s dedicated Virtual servers are backed by an
