@@ -10,20 +10,24 @@
           >
             <div class="space-y-4">
               <h1 class="text-black font-bold text-2xl lg:text-3xl">
-                Dedicated Virtual Server
+                Forex Dedicated Virtual Server
               </h1>
               <p class="text-base md:text-lg text-black !leading-[1.6]">
                 FX VPS Pro’s dedicated Virtual servers are backed by an
                 industry-leading service level agreement. We can assure you that
                 our dedicated servers will have 100% uptime during trading
-                sessions.<br />
+                sessions.
+                </p>
+                <p>
                 From the service of dedicated server of FX VPS Pro, you will be
                 able to take full advantage of our ultra-low latency network.
                 You will be able to communicate with your broker in just
-                milliseconds from no matter where you are located.<br />
+                milliseconds from no matter where you are located.</p>
+                <p>
                 FX VPS Prooffers a premium managed solution where you will be
                 served by our expert technicians who will help you step by step
-                with getting set up along with any support.<br />
+                with getting set up along with any support.</p>
+                <p>
                 FX VPS Pro uses the latestenterprise-grade hardware for making a
                 server. You can feel relaxed knowing that your server will be
                 made up of the best modern parts available and can be customized
@@ -31,7 +35,6 @@
               </p>
             </div>
             <div class="space-y-6 md:space-y-10">
-              <h2 class="text-xl md:text-2xl font-bold">Forex Pro VPS</h2>
               <table
                 class="w-full rounded-[2rem] overflow-hidden border-collapse"
               >
