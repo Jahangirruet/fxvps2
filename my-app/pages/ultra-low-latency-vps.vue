@@ -14,7 +14,7 @@
                   <h2 class="text-xl md:text-2xl font-bold">Free Forex VPS</h2>
                   <p class="text-lg font-semibold text-primary">
                     Slippage can be 99% eliminated with our low latency
-                    infrastructure.
+                    infrastructure...
                   </p>
                 </div>
                 <table
