@@ -1,6 +1,5 @@
 <template>
   <NuxtLayout>
-    <!-- <main> -->
         <section class="px-4 overflow-x-clip py-5">
         <div class="container mx-auto">
           <div class="flex flex-col md:flex-row items-center gap-10">
