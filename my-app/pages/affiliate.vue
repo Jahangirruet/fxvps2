@@ -10,8 +10,7 @@
           >
             <div class="space-y-4">
               <h1 class="text-black font-bold text-2xl lg:text-3xl">
-                Introducing the exhilarating affiliate progVPS RESELL of FX VPS
-                PRO.
+                Introducing the exhilarating affiliate program of FX VPS PRO.
               </h1>
               <p class="text-base md:text-lg text-black !leading-[1.6]">
                 Speeedy business execution, lowest latency period & continuous
