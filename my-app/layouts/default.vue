@@ -54,7 +54,7 @@
                     <li>
                       <NuxtLink to="/pricing">
                         <span class="font-bold text-base xl:text-xl text-black">
-                          VPS PRICING
+                          VPS PRICING....
                         </span>
                       </NuxtLink>
                     </li>
@@ -213,28 +213,45 @@ export default {
       overlay.classList.remove("block");
       overlay.classList.add("hidden");
     },
-
     stickyElement() {
-      var header = document.querySelector(".header");
-      var headerHeight = getComputedStyle(header).height.split("px")[0];
-      var navbar = document.querySelector(".navigation");
-      var scrollValue = window.scrollY + 59;
+      let header = document.querySelector(".header");
+      let headerHeight = getComputedStyle(header).height.split("px")[0];
+      let navbar = document.querySelector(".navigation");
+      let scrollValue = window.scrollY + 59;
 
       if (scrollValue > headerHeight) {
         navbar.classList.add("is-fixed");
       } else if (scrollValue < headerHeight) {
         navbar.classList.remove("is-fixed");
       }
+      console.log(window.scrollY);
     },
+  },
+  created() {
+    if (process.client) {
+      window.addEventListener("scroll", this.stickyElement);
+    }
+  },
+  destroyed() {
+    if (process.client) {
+      window.removeEventListener("scroll", this.stickyElement);
+    }
   },
 };
 </script>
 
 <style>
-div.sticky {
+.is-fixed {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  background-color: white;
+  top: 0px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 </style>
