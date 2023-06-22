@@ -54,7 +54,7 @@
                     <li>
                       <NuxtLink to="/pricing">
                         <span class="font-bold text-base xl:text-xl text-black">
-                          VPS PRICING....
+                          VPS PRICING
                         </span>
                       </NuxtLink>
                     </li>
