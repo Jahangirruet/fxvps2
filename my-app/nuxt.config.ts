@@ -33,7 +33,7 @@ export default defineNuxtConfig({
       script: [
         { src: "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" },
 
-        { innerHTML: '' } 
+        { innerHTML: "" },
       ],
       noscript: [
         // <noscript>JavaScript is required</noscript>

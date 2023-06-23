@@ -81,7 +81,7 @@ export default {
       overlay.classList.add("hidden");
     },
 
-    stickyElement() {
+    stickyElement(e) {
       var header = document.querySelector(".header");
       var headerHeight = getComputedStyle(header).height.split("px")[0];
       var navbar = document.querySelector(".navigation");
@@ -93,6 +93,16 @@ export default {
         navbar.classList.remove("is-fixed");
       }
     },
+  },
+  created() {
+    if (process.client) {
+      window.addEventListener("scroll", this.stickyElement);
+    }
+  },
+  destroyed() {
+    if (process.client) {
+      window.removeEventListener("scroll", this.stickyElement);
+    }
   },
 };
 </script>
