@@ -185,11 +185,9 @@
           </div>
         </nav>
       </header>
-
       <slot />
+      <FooterView />
     </div>
-
-    <FooterView />
   </div>
 </template>
 
