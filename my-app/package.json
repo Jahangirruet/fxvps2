@@ -12,5 +12,8 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
     "nuxt": "^3.5.2"
+  },
+  "dependencies": {
+    "usemodal-vue3": "^0.3.7"
   }
 }
