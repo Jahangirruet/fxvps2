@@ -175,9 +175,11 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal v-show="showModal" @close-modal="showModal = false" greeting-message="XM" />
                       </div>
                     </td>
                   </tr>
@@ -1332,7 +1334,16 @@
 </template>
 
 <script>
-export default{}
+import SavedModal from '~/components/SavedModal.vue'
+
+export default {
+  components: { SavedModal },
+  data() {
+    return {
+      showModal: false,
+    }
+  },
+}
 </script>
 
 <style></style>
