@@ -59,7 +59,7 @@
               </p>
               <div class="flex justify-start">
                 <NuxtLink
-                  to="#"
+                  to="/"
                   class="group inline-block rounded-full bg-gradient-to-r from-primary to-secondary p-1 text-lg font-normal text-black"
                 >
                   <span
