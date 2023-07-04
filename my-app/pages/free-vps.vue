@@ -175,113 +175,19 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
-                          @click="showModal = true"
+                          @click="showModal1 = true"
                         >
                           Transfer Existing A/C
                         </button>
-                        <SavedModal v-show="showModal" @close-modal="showModal = false" greeting-message="XM" />
-                      </div>
-                    </td>
-                  </tr>
-                  <tr
-                    class="odd:bg-primary pb-2 lg:pb-0 odd:bg-opacity-20 even:bg-opacity-10 even:bg-secondary flex flex-col lg:flex-row"
-                  >
-                    <td
-                      class="flex justify-center lg:justify-start text-black lg:basis-1/4 py-2 lg:py-6 text-lg 2xl:text-2xl lg:pl-10 xl:pl-20"
-                    >
-                      <span class="text-base font-bold pr-2 lg:hidden mt-1"
-                        >BROKER NAME:</span
-                      >
-                      Roboforex
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >LOGO:</span
-                        >
-                      </div>
-                      <div class="flex justify-center">
-                        <img src="~/assets/images/img-2.png" alt="img" />
-                      </div>
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >REGISTER:</span
-                        >
-                      </div>
-                      <div class="flex justify-center items-center">
-                        <a
-                          href="#"
-                          class="rounded-2xl px-10 py-4 text-lg bg-primary hover:bg-opacity-80 text-white"
-                          >Register</a
-                        >
-                      </div>
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >TRANSFER EXISTING:</span
-                        >
-                      </div>
-                      <div class="flex justify-center items-center">
-                        <button
-                          type="button"
-                          class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
-                        >
-                          Transfer Existing A/C
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr
-                    class="odd:bg-primary pb-2 lg:pb-0 odd:bg-opacity-20 even:bg-opacity-10 even:bg-secondary flex flex-col lg:flex-row"
-                  >
-                    <td
-                      class="flex justify-center lg:justify-start text-black lg:basis-1/4 py-2 lg:py-6 text-lg 2xl:text-2xl lg:pl-10 xl:pl-20"
-                    >
-                      <span class="text-base font-bold pr-2 lg:hidden mt-1"
-                        >BROKER NAME:</span
-                      >
-                      Markets
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >LOGO:</span
-                        >
-                      </div>
-                      <div class="flex justify-center">
-                        <img src="~/assets/images/img-3.png" alt="img" />
-                      </div>
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >REGISTER:</span
-                        >
-                      </div>
-                      <div class="flex justify-center items-center">
-                        <a
-                          href="#"
-                          class="rounded-2xl px-10 py-4 text-lg bg-primary hover:bg-opacity-80 text-white"
-                          >Register</a
-                        >
-                      </div>
-                    </td>
-                    <td class="lg:basis-1/4 py-2 lg:py-6 lg:px-5">
-                      <div class="flex justify-center lg:hidden">
-                        <span class="text-base text-center font-bold pr-2"
-                          >TRANSFER EXISTING:</span
-                        >
-                      </div>
-                      <div class="flex justify-center items-center">
-                        <button
-                          type="button"
-                          class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
-                        >
-                          Transfer Existing A/C
-                        </button>
+                        <SavedModal
+                          v-show="showModal1"
+                          @close-modal="showModal1 = false"
+                          broker="XM"
+                          email="ib@xm.com"
+                          ID="abquddus"
+                          link="http://clicks.pipaffiliates.com/afs/come.php?id=59&cid=21394&ctgid=17&atype=1"
+                          website="XM.com"
+                        />
                       </div>
                     </td>
                   </tr>
@@ -330,9 +236,19 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal2 = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal
+                          v-show="showModal2"
+                          @close-modal="showModal2 = false"
+                          broker="Justforex"
+                          email="support@justforex.com"
+                          ID="8378"
+                          link="http://justforex.com/landing/first-step-to-profit?ref=8378"
+                          website="justforex.com"
+                        />
                       </div>
                     </td>
                   </tr>
@@ -381,9 +297,19 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal3 = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal
+                          v-show="showModal3"
+                          @close-modal="showModal3 = false"
+                          broker="IC Markets"
+                          email="support@icmarkets.com"
+                          ID="2459"
+                          link="http://icmarkets.com/?camp=2459"
+                          website="icmarkets.com"
+                        />
                       </div>
                     </td>
                   </tr>
@@ -432,9 +358,19 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal4 = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal
+                          v-show="showModal4"
+                          @close-modal="showModal4 = false"
+                          broker="HotForex"
+                          email="support@hotforex.com"
+                          ID="127797"
+                          link="https://www.hotforex.com/?refid=127797"
+                          website="HotForex.com"
+                        />
                       </div>
                     </td>
                   </tr>
@@ -483,9 +419,19 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal5 = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal
+                          v-show="showModal5"
+                          @close-modal="showModal5 = false"
+                          broker="ForexTime (FXTM)"
+                          email="support@forextime.com"
+                          ID="4901976"
+                          link="https://forextime.com/?partner_id=4901976"
+                          website="FXTM.com"
+                        />
                       </div>
                     </td>
                   </tr>
@@ -534,173 +480,24 @@
                         <button
                           type="button"
                           class="open-modal rounded-2xl px-10 py-4 text-lg bg-secondary hover:bg-opacity-80 text-white"
+                          @click="showModal6 = true"
                         >
                           Transfer Existing A/C
                         </button>
+                        <SavedModal
+                          v-show="showModal6"
+                          @close-modal="showModal6 = false"
+                          broker="FBS"
+                          email="support@fbs.com"
+                          ID="348298"
+                          link="https://fbs.com/?ppu=348298"
+                          website="FBS.com"
+                        />
                       </div>
                     </td>
                   </tr>
                 </tbody>
               </table>
-
-              <div
-                id="modal"
-                class="fixed flex justify-center opacity-0 invisible transition-all duration-150 inset-0 bg-black/20 z-50 !m-0 pt-10 px-4 pb-20"
-              >
-                <div
-                  class="modal-content w-full sm:w-10/12 lg:w-8/12 bg-white rounded-xl -translate-y-20 transition-all duration-300"
-                >
-                  <header
-                    class="flex py-6 px-4 md:px-8 justify-between items-center border-b border-gray-200"
-                  >
-                    <h2 class="text-gray-500 font-medium text-lg md:text-xl">
-                      XM | Procedure of Transferring Existing Account Under Our
-                      IB
-                    </h2>
-                    <button type="button" class="close-modal">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-x"
-                      >
-                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                      </svg>
-                    </button>
-                  </header>
-                  <div
-                    class="px-4 md:px-8 py-5 overflow-y-auto max-h-[calc(100vh-200px)]"
-                  >
-                    <ul class="grid gap-2.5 pb-4 border-b border-gray-100">
-                      <li class="flex items-start gap-3">
-                        <img
-                          src="~/assets/images/check.svg"
-                          class="shrink-0 mt-1.5"
-                          alt="check.svg"
-                        />
-                        <p
-                          class="text-base md:text-lg text-gray-500 !leading-[1.6]"
-                        >
-                          It's easy !!! Just sent an email from your registered
-                          email address of XM.com to
-                          <strong>ib@xm.com </strong> and mention our Partner ID
-                          = <strong>abquddus</strong>.
-                        </p>
-                      </li>
-                      <li class="flex items-start gap-3">
-                        <img
-                          src="~/assets/images/check.svg"
-                          class="shrink-0 mt-1.5"
-                          alt="check.svg"
-                        />
-                        <p
-                          class="text-base md:text-lg text-gray-500 !leading-[1.6]"
-                        >
-                          Close your all current and pending trading orders
-                          before sending your email to broker support.
-                        </p>
-                      </li>
-                    </ul>
-                    <div class="py-6">
-                      <div class="flex justify-center pb-10">
-                        <h3
-                          class="border-b border-black font-bold text-2xl text-center inline-block"
-                        >
-                          Email Format
-                        </h3>
-                      </div>
-                      <div class="border-b border-gray-100 pb-5">
-                        <p class="text-base md:text-lg text-gray-600">
-                          <strong>Email:</strong> ib@xm.com
-                        </p>
-                        <p class="text-base md:text-lg text-gray-600">
-                          <strong>Email subject:</strong> Transfer my account
-                          under an IB .
-                        </p>
-                        <p class="text-base md:text-lg text-gray-600">Hello,</p>
-                        <p class="text-base md:text-lg text-gray-600">
-                          I want to transfer my following trading account number
-                          under the following refferal ID. <br />
-                          My Trading Account Number : --------<br />
-                          Partner ID : <strong>abquddus</strong><br />
-                          Please transfer my trading account number under the
-                          following IB as soon as possible .<br />
-                          Sincerely,<br />
-                          ----------<br />
-                        </p>
-                      </div>
-                      <ul class="grid gap-2.5 pb-4 border-b border-gray-100">
-                        <li class="flex items-start gap-3">
-                          <img
-                            src="~/assets/images/check.svg"
-                            class="shrink-0 mt-1.5"
-                            alt="check.svg"
-                          />
-                          <p
-                            class="text-base md:text-lg text-gray-500 !leading-[1.6]"
-                          >
-                            After getting the corfirmation from the broker
-                            forward that email to our email
-                            <strong>support@fxvps.pro</strong> or fill up the
-                            signal subscription activation form using this
-                            <a target="_blank" href="http://eepurl.com/bvt6bT"
-                              >Link</a
-                            >.
-                          </p>
-                        </li>
-                        <li class="flex items-start gap-3">
-                          <img
-                            src="~/assets/images/check.svg"
-                            class="shrink-0 mt-1.5"
-                            alt="check.svg"
-                          />
-                          <p
-                            class="text-base md:text-lg text-gray-500 !leading-[1.6]"
-                          >
-                            If you don't get reply from broker support email,
-                            then you can take help from their live chat support.
-                          </p>
-                        </li>
-                      </ul>
-                      <div class="flex justify-center pb-10">
-                        <h3
-                          class="border-b border-black font-bold text-2xl text-center inline-block"
-                        >
-                          Otherwise !
-                        </h3>
-                      </div>
-                      <ul class="grid gap-2.5 pb-4 border-b border-gray-100">
-                        <li class="flex items-start gap-3">
-                          <img
-                            src="~/assets/images/check.svg"
-                            class="shrink-0 mt-1.5"
-                            alt="check.svg"
-                          />
-                          <p
-                            class="text-base md:text-lg text-gray-500 !leading-[1.6]"
-                          >
-                            Open a new fresh account using our XM IB
-                            <a
-                              target="_blank"
-                              href="http://clicks.pipaffiliates.com/afs/come.php?id=59&cid=21394&ctgid=17&atype=1"
-                              >Link</a
-                            >
-                            and transfer your money from old account to new
-                            account.
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="space-y-6 md:space-y-10">
               <h2 class="text-xl md:text-2xl font-bold">
@@ -1334,16 +1131,23 @@
 </template>
 
 <script>
-import SavedModal from '~/components/SavedModal.vue'
+import SavedModal from "~/components/SavedModal.vue";
 
 export default {
   components: { SavedModal },
   data() {
     return {
-      showModal: false,
-    }
+      showModal1: false,
+      showModal2: false,
+      showModal3: false,
+      showModal4: false,
+      showModal5: false,
+      showModal6: false,
+      showModal7: false,
+      showModal8: false,
+    };
   },
-}
+};
 </script>
 
 <style></style>
