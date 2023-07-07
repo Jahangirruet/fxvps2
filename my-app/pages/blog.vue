@@ -28,7 +28,7 @@
               </p>
               <div class="flex justify-start">
                 <NuxtLink
-                  to="/how-forex-blogs"
+                  to="/blogs/how-forex-blogs"
                   class="group inline-block rounded-full bg-gradient-to-r from-primary to-secondary p-1 text-lg font-normal text-black"
                 >
                   <span
@@ -59,7 +59,7 @@
               </p>
               <div class="flex justify-start">
                 <NuxtLink
-                  to="#"
+                  to="/blogs/best-forex-trading-strategies-for-complete-beginners"
                   class="group inline-block rounded-full bg-gradient-to-r from-primary to-secondary p-1 text-lg font-normal text-black"
                 >
                   <span
